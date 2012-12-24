@@ -10,7 +10,7 @@ assets.yoursite.com, beta.yoursite.com, etc.
 
 A web application commonly has several subdomains that refer to the same application. For example,
 a standard practice to speed browser page load time, is to have multiple asset hosts aliased to your
-application, allowing a browser to simultaneously stream multiple assets. In an SEO context, each of 
+application, allowing a browser to simultaneously stream multiple assets. In an SEO context, each of
 these aliased hosts are considered to be duplicate content. To avoid this, you should have different
 robots.txt that exclude search engines for all but your canonical domain.
 
@@ -23,7 +23,7 @@ robots.txt will return the following:
 
     www.yoursite.com/robots.txt -> User-agent: *
                                    Crawl-Delay: 3
-                               
+
     assets0.yoursite.com/robots.txt -> User-agent: *
                                            Disallow: /
 
