@@ -1,4 +1,6 @@
 # BetterRobots - Better SEO with robots.txt
+[![Build Status](https://travis-ci.org/gerrypower/better_robots.png?branch=master)](https://travis-ci.org/gerrypower/better_robots)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/gerrypower/better_robots)
 
 BetterRobots is designed to SEO enhance your robots.txt serving, in particular for situations where
 you have multiple domains or subdomains being served from one application. e.g. www.yoursite.com,
