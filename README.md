@@ -14,7 +14,7 @@ application, allowing a browser to simultaneously stream multiple assets. In an 
 these aliased hosts are considered to be duplicate content. To avoid this, you should have different
 robots.txt that exclude search engines for all but your canonical domain.
 
-BetterRobots provides a robots.txt configuration for your conical domain, optional robots.txt for others,
+BetterRobots provides a robots.txt configuration for your canonical domain, optional robots.txt for others,
 and defaults to disallow for everything that does not have a matching robots.txt.
 
 As a quick example, assume your canonical domain is www.yoursite.com with a subdomain 'assets0' and
@@ -72,7 +72,7 @@ Rails 3.2 and Sinatra 1.3, and on the following Ruby implementations:
 
 ### License
 
-webhookr is released under the [MIT license](http://www.opensource.org/licenses/MIT).
+BetterRobots is released under the [MIT license](http://www.opensource.org/licenses/MIT).
 
 ## Author
 
