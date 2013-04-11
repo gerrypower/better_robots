@@ -72,7 +72,7 @@ Rails 3.2 and Sinatra 1.3, and on the following Ruby implementations:
 
 ### License
 
-webhookr is released under the [MIT license](http://www.opensource.org/licenses/MIT).
+better_robots is released under the [MIT license](http://www.opensource.org/licenses/MIT).
 
 ## Author
 
