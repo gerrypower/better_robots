@@ -64,9 +64,9 @@ BetterRobots is a Rack based app, and should work with any Rack compatible frame
 Rails 3.2 and Sinatra 1.3, and on the following Ruby implementations:
 
 * JRuby 1.7.1
-* MRI 1.8.7
 * MRI 1.9.2
 * MRI 1.9.3
+* MRI 2.0.0
 * Rubinius 1.2.4
 * Ruby EE 1.8.7
 
