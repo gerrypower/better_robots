@@ -8,18 +8,23 @@ assets.yoursite.com, beta.yoursite.com, etc.
 
 ## SEO and Your robots.txt
 
-A web application commonly has several subdomains that refer to the same application. For example,
+**Deprecated**: Domain Sharding, the technique this gem was written to help enable, is now considered a performance
+anti-pattern for both desktop and mobile browsers.
+See [Why Domain Sharding is Bad News ...](http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/) for further details and test results.
+
+
+~~A web application commonly has several subdomains that refer to the same application. For example,
 a standard practice to speed browser page load time, is to have multiple asset hosts aliased to your
 application, allowing a browser to simultaneously stream multiple assets. In an SEO context, each of
 these aliased hosts are considered to be duplicate content. To avoid this, you should have different
-robots.txt that exclude search engines for all but your canonical domain.
+robots.txt that exclude search engines for all but your canonical domain.~~
 
-BetterRobots provides a robots.txt configuration for your conical domain, optional robots.txt for others,
-and defaults to disallow for everything that does not have a matching robots.txt.
+~~BetterRobots provides a robots.txt configuration for your conical domain, optional robots.txt for others,
+and defaults to disallow for everything that does not have a matching robots.txt.~~
 
-As a quick example, assume your canonical domain is www.yoursite.com with a subdomain 'assets0' and
+~~As a quick example, assume your canonical domain is www.yoursite.com with a subdomain 'assets0' and
 'api'. If you rename your robots.txt to www.yoursite.com.robots.txt, the following get requests for
-robots.txt will return the following:
+robots.txt will return the following:~~
 
     www.yoursite.com/robots.txt -> User-agent: *
                                    Crawl-Delay: 3
